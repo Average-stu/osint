@@ -99,7 +99,7 @@ echo "\n$cln" . "$lblue" . "[+] Scanning Begins ... \n";
             echo "\n\n";
 
             echo "\n$bold" . "$lblue" . "B A S I C   I N F O \n";
-            echo "====================\n";
+	    echo "********************\n";
             echo "\n\e[0m";
 
             $reallink = $ipsl . $ip;
@@ -130,7 +130,7 @@ echo "\n$cln" . "$lblue" . "[+] Scanning Begins ... \n";
             robotsdottxt($reallink);
             echo "\n\n$cln";
             echo "\n\n$bold" . $lblue . "W H O I S   L O O K U P\n";
-            echo "========================";
+	    echo "************************\n";
             echo "\n\n$cln";
             $urlwhois    = "http://api.hackertarget.com/whois/?q=" . $lwwww;
             $resultwhois = file_get_contents($urlwhois);
@@ -139,7 +139,7 @@ echo "\n$cln" . "$lblue" . "[+] Scanning Begins ... \n";
             echo "\n\n$cln";
 
             echo "\n\n$bold" . $lblue . "G E O  I P  L O O K  U P\n";
-            echo "=========================";
+	    echo "*************************\n";
             echo "\n\n$cln";
             $urlgip    = "http://api.hackertarget.com/geoip/?q=" . $lwwww;
             $resultgip = readcontents($urlgip);
@@ -151,13 +151,13 @@ echo "\n$cln" . "$lblue" . "[+] Scanning Begins ... \n";
             echo "\n\n$cln";
 
             echo "\n\n$bold" . $lblue . "H T T P   H E A D E R S\n";
-            echo "=======================";
+	    echo "***********************\n";
             echo "\n\n$cln";
             gethttpheader($reallink);
             echo "\n\n";
 
             echo "\n\n$bold" . $lblue . "D N S   L O O K U P\n";
-            echo "===================";
+	    echo "*******************\n";
             echo "\n\n$cln";
             $urldlup    = "http://api.hackertarget.com/dnslookup/?q=" . $lwwww;
             $resultdlup = file_get_contents($urldlup);
@@ -165,7 +165,8 @@ echo "\n$cln" . "$lblue" . "[+] Scanning Begins ... \n";
             echo "\n\n";
 
             echo "\n\n$bold" . $lblue . "S U B N E T   C A L C U L A T I O N\n";
-            echo "====================================";
+            
+	    echo "************************************\n";
             echo "\n\n$cln";
             $urlscal    = "http://api.hackertarget.com/subnetcalc/?q=" . $lwwww;
             $resultscal = file_get_contents($urlscal);
@@ -173,7 +174,8 @@ echo "\n$cln" . "$lblue" . "[+] Scanning Begins ... \n";
             echo "\n\n";
 
             echo "\n\n$bold" . $lblue . "N M A P   P O R T   S C A N\n";
-            echo "============================";
+            
+	    echo "****************************";
             echo "\n\n$cln";
             $urlnmap    = "http://api.hackertarget.com/nmap/?q=" . $lwwww;
             $resultnmap = file_get_contents($urlnmap);
@@ -181,7 +183,8 @@ echo "\n$cln" . "$lblue" . "[+] Scanning Begins ... \n";
             echo "\n";
 
             echo "\n\n$bold" . $lblue . "S U B - D O M A I N   F I N D E R\n";
-            echo "==================================";
+            
+	    echo "**********************************";
             echo "\n\n";
             $urlsd      = "http://api.hackertarget.com/hostsearch/?q=" . $lwwww;
             $resultsd   = file_get_contents($urlsd);
@@ -198,7 +201,8 @@ echo "\n$cln" . "$lblue" . "[+] Scanning Begins ... \n";
             echo "\n\n";
 
             echo "\n\n$bold" . $lblue . "R E V E R S E   I P   L O O K U P\n";
-            echo "==================================";
+     
+	    echo "**********************************";
             echo "\n\n";
             $sth = 'http://domains.yougetsignal.com/domains.php';
             $ch  = curl_init($sth);
@@ -253,7 +257,8 @@ echo "\n$cln" . "$lblue" . "[+] Scanning Begins ... \n";
 
             echo "\n\n";
             echo "\n\n$bold" . $lblue . "S Q L   V U L N E R A B I L I T Y   S C A N N E R\n";
-            echo "===================================================$cln";
+            
+	    echo "***************************************************\n";
             echo "\n";
             $lulzurl = $ipsl . $ip;
             $html    = file_get_contents($lulzurl);
@@ -295,7 +300,8 @@ echo "\n$cln" . "$lblue" . "[+] Scanning Begins ... \n";
             echo "\n\n";
 
             echo "\n\n$bold" . $lblue . "C R A W L E R \n";
-            echo "=============";
+            
+	    echo "*************\n";
             echo "\n\n";
             echo "\nCrawling Types & Descriptions:$cln";
             echo "\n\n$bold" . "69:$cln This is the lite version of tge crawler, This will show you the files which returns the http code '200'. This is time efficient and less messy.\n";
