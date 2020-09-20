@@ -24,6 +24,7 @@ printf "\e[1;92m[\e[0m\e[1;77m07\e[0m\e[1;92m]\e[0m\e[1;93m SUBDOMAIN-SCANNER\e[
 printf "\e[1;92m[\e[0m\e[1;77m08\e[0m\e[1;92m]\e[0m\e[1;93m SQLI-SCANNER\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m09\e[0m\e[1;92m]\e[0m\e[1;93m ALL -THE EASY WAY  \e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m010\e[0m\e[1;92m]\e[0m\e[1;93m Find-using-username  \e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m011\e[0m\e[1;92m]\e[0m\e[1;93m Harvester (domain-wise)  \e[0m\n"
 
 printf "\n"
 printf "\e[1;93m[\e[0m\e[1;77m99\e[0m\e[1;93m]\e[0m\e[1;77m Exit\e[0m\n"
@@ -60,6 +61,9 @@ php all.php
 elif [[ $option == 10 || $option == 10 ]]; then
 cd bash/
 bash username.sh
+elif [[ $option == 11 || $option == 11 ]]; then
+cd harvester/
+bash trace.sh
 
 
 
