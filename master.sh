@@ -3,7 +3,14 @@
 
 banner() {
 clear
-printf "\e[1;93m  made by - @Aman   \e[0m\n"
+printf " ██████╗ ███████╗██╗███╗   ██╗████████╗ \n"
+printf "██╔═══██╗██╔════╝██║████╗  ██║╚══██╔══╝ \n"
+printf "██║   ██║███████╗██║██╔██╗ ██║   ██║    \n"
+printf "██║   ██║╚════██║██║██║╚██╗██║   ██║  \n"  
+printf "╚██████╔╝███████║██║██║ ╚████║   ██║  \n"  
+printf " ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝   \n" 
+printf "\n\n"
+printf "\e[1;93m  made by - @Average-stu   \e[0m\n"
 printf "\n"
 }
 menu() {
@@ -35,10 +42,10 @@ php grab-banner.php
 elif [[ $option == 4 || $option == 04 ]]; then
 cd api
 php Dns-lookup.php
-elif [[ $option == 5 || $option == 05 ]]; then
+elif [[ $option == 6 || $option == 06 ]]; then
 cd bash
 bash nmap.sh
-elif [[ $option == 6 || $option == 06 ]]; then
+elif [[ $option == 5 || $option == 05 ]]; then
 cd api
 php nmap.php
 elif [[ $option == 7 || $option == 07 ]]; then
