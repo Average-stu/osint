@@ -129,7 +129,7 @@ echo "\n$cln" . "$lblue" . "[+] Scanning Begins ... \n";
             echo "$blue" . "[+] Robots File:$cln ";
             robotsdottxt($reallink);
             echo "\n\n$cln";
-            echo "\n\n$bold" . $lblue . "W H O I S   L O O K U P\n";
+            echo "\n\n$bold" . $lblue . "W H O I S   L O O K U P\n";  
 	    echo "************************\n";
             echo "\n\n$cln";
             $urlwhois    = "http://api.hackertarget.com/whois/?q=" . $lwwww;

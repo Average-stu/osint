@@ -61,10 +61,12 @@ read -e -p "Target>" target
 else
 target="$1"
 fi
+#to save the result
+#rm -rf $target.txt
 
 if [[ $scan == '1' ]]
    then
-	nmap -v -T4 -A -v $target
+	nmap -v -T4 -A -v $target 
 
 elif [[ $scan == '2' ]]
     then
