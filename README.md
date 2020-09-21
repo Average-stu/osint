@@ -10,5 +10,5 @@ Scripts that help in finding information that are available online publicly.
 > * *Finding all the details present online and presenting graphically*
 ---
 # Run
-> `chmod +x master.sh`
+> `chmod +x master.sh`\
 > `./master.sh`
