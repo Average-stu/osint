@@ -25,5 +25,7 @@ We have made the set of scripts that help in finding indormation that are availa
 > > *This is basically all in one tools that finds all the details such as all the ip addresses present, email ids present, sub-domains based on the domain name.*
 ---
 # Run
+> To run the script run the below code in your terminal:\
 > `chmod +x master.sh`\
-> `./master.sh`
+> `sudo ./master.sh` \
+###### Note: Run this script as root user.
