@@ -1,6 +1,7 @@
-# Osint
+# OSINT
 
-Scripts that help in finding indormation that are available online publicly. This tool fetches all the information that are available based on your domain name.
+**Open-source intelligence (OSINT) is data collected from publicly available sources to be used in an intelligence context.**\
+We have made the set of scripts that help in finding indormation that are available online publicly. Thus this is the complete tool if you want to perform OSINT on any website or domain.
 
 --- 
 # Features
