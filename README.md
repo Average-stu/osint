@@ -1,7 +1,7 @@
 # OSINT
 
 **Open-source intelligence (OSINT) is data collected from publicly available sources to be used in an intelligence context.**\
-We have made the set of scripts that help in finding indormation that are available online publicly. Thus this is the complete tool if you want to perform OSINT on any website or domain.
+We have made the set of scripts that help in finding information that are available online publicly. Thus this is the complete tool if you want to perform OSINT on any website or domain.
 
 --- 
 # Features
