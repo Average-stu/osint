@@ -27,5 +27,5 @@ We have made the set of scripts that help in finding information that are availa
 # Run
 > To run the script run the below code in your terminal:\
 > `chmod +x master.sh`\
-> `sudo ./master.sh` \
+> `sudo ./master.sh`
 ###### Note: Run this script as root user.
